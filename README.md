@@ -58,6 +58,7 @@ $ make window.run
 - [Particles](#particles)
 - [Texture Manipulation](#texture-manipulation)
 - [Gradient](#gradient)
+- [Sine Wave Audio](#sine-wave-audio)
 
 <!-- /MarkdownTOC -->
 
@@ -214,3 +215,7 @@ In this demo we manually implement color key functionality.
 Create a simple gradient using `SDL_CreateTexture`.
 
 ![](http://asset.cjting.cn/Ft7jB7y2mQ-f5G30zdl0uNQVVM_V.png)
+
+## Sine Wave Audio
+
+Play a very simple sine wave audio with `SDL_QueueAudio`.

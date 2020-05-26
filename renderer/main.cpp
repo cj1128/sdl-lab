@@ -18,15 +18,15 @@ main(void)
       if(e.type == SDL_QUIT) {
         quit = true;
       }
-
-      // Clear
-      SDL_SetRenderDrawColor(renderer, 0xFF, 0xFF, 0xFF, 0xFF);
-      SDL_RenderClear(renderer);
-
-      SDL_RenderCopy(renderer, texture.texture, NULL, NULL);
-
-      SDL_RenderPresent(renderer);
     }
+
+    // Clear
+    SDL_SetRenderDrawColor(renderer, 0xFF, 0xFF, 0xFF, 0xFF);
+    SDL_RenderClear(renderer);
+
+    SDL_RenderCopy(renderer, texture.texture, NULL, NULL);
+
+    SDL_RenderPresent(renderer);
   }
 
   return 0;

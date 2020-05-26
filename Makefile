@@ -1,6 +1,6 @@
 SHELL = /bin/bash
 
-current = viewport
+current = sine_wave_audio
 
 run:
 	cd $(current) && ./main.out
